@@ -1,0 +1,16 @@
+.chat {
+  .chat_bar {
+    background-color: #f0f2f5;
+    padding: 23px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .chat_icons {
+      display: flex;
+      gap: 20px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+  }
+}

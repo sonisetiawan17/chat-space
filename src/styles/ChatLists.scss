@@ -1,0 +1,41 @@
+.chat_list {
+  padding: 0 8px 0 0;
+  background-color: #ffffff;
+
+  .lists {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 0 10px 13px;
+    border-left: 5px solid transparent;
+    cursor: pointer;
+    transition: 0.4s;
+    border-bottom: 1px solid lavender;
+
+    &:hover {
+      background-color: #f0f2f5;
+      border-left: 5px solid limegreen;
+      transition: 0.4s;
+    }
+
+    img {
+      height: 45px;
+      width: 45px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    p {
+      font-size: 14px;
+      font-weight: 500;
+      color: #03045e;
+    }
+
+    .chats {
+      color: gray;
+      display: block;
+      font-weight: 400;
+      font-size: 13px;
+    }
+  }
+}

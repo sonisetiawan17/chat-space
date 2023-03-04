@@ -1,0 +1,27 @@
+.home_page {
+  background-color: #e2e1dd;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+  .home_container {
+    background-color: #eaf4f4;
+    // border: 2px solid limegreen;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+
+    .sidebar {
+      background-color: #f6fff8;
+      flex: 1;
+    }
+
+    .chat {
+      flex: 2;
+    }
+  }
+}
